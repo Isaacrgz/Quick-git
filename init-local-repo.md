@@ -3,7 +3,7 @@
 ## Init local repo
 In terminal
 
-1) localate in the main folder
+1) Place it the main folder
 2) Init the repo with a custom branch name
    
    ```
@@ -29,7 +29,12 @@ In terminal
     ```
     echo. > .gitignore
     ```
-7) Add target/
+7) Add `target/`
+
+> [!WARNING]
+> This step is only necessary if you want to prevent pushing post-compiled files.
+
+## Push to remote repo
 
 8) Stage the files
   
@@ -45,3 +50,5 @@ In terminal
     ```
     git push origin main
     ```
+> [!NOTE]
+> First, the ref `origin` and the remote branch `main` must be added.
