@@ -1,4 +1,6 @@
-# Case
+# Case use
+- You've been working on a project without initializing `Git`
+- You created a repo on `GitHub` with a file, or you're working with an existing one
 
 ## Init local repo
 In terminal
